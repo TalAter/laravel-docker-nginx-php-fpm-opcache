@@ -23,7 +23,7 @@ Step 2: Run `git init`
 Step 3: Pull this repo `git pull https://github.com/emad-zaamout/laravel-docker-nginx-php-fpm-opcache`
 
 Step 4: Adjust your env variables. Make sure you set your database env vars. Add any values as the database will be created per your env var values.
-```
+````
 # Adjust your .env variables.
 
 DB_CONNECTION=mysql
@@ -36,7 +36,7 @@ DB_PASSWORD=secret
 REDIS_HOST=redis
 REDIS_PASSWORD=secret
 REDIS_PORT=6379
-```
+````
 
 Step 5:
     To run the containers, please use the provided Makefile. Run `make` to see all supported commands.
