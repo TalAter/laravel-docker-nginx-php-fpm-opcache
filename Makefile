@@ -22,13 +22,11 @@ start: ## Start all containers
 
 fresh:  ## Destroy & recreate all uing dev containers.
 	make stop
-	make destroy
 	make build
 	make start
 
 fresh-prod: ## Destroy & recreate all using prod containers.
 	make stop
-	make destroy
 	make build-prod
 	make start
 
